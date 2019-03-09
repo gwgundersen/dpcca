@@ -1,5 +1,5 @@
 """=============================================================================
-Verify that my function that unrolls parameters is correct.
+Verify that parameter unrolling function is correct.
 ============================================================================="""
 
 import unittest

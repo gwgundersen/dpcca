@@ -31,9 +31,9 @@ class UnitTest(unittest.TestCase):
         V = torch.Tensor(self.V)
         M = U @ V + torch.diag(A)
         M_inv = linalg.woodbury_inv(A, U, V, self.k)
+
         # Pretty chill tolerance, but PyTorch is being weird, and the matrices
         # are definitely the same.
-
         self.assertTrue(relaxed_allclose(M @ M_inv, torch.eye(self.p)))
 
 # ------------------------------------------------------------------------------
