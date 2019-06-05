@@ -36,8 +36,7 @@ def main(cfg):
     # Map MNIST class to multivariate normal.
     multimodal_mvn_map = {
         0: MultivariateNormal(torch.ones(p2),       torch.eye(p2)),
-        1: MultivariateNormal(torch.ones(p2) * 10,  torch.eye(p2) * 5),
-        2: MultivariateNormal(torch.ones(p2) * -10, torch.eye(p2) * 10)
+        1: MultivariateNormal(torch.ones(p2) * 10,  torch.eye(p2) * 5)
     }
 
     images_new = np.empty((n_samples, 28, 28))
