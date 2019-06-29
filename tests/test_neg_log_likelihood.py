@@ -7,7 +7,7 @@ import numpy as np
 import unittest
 import torch
 
-from   models import PCCASimple, PCCAVec, PCCAOpt
+from   models import PCCASimple, PCCAVec
 
 # ------------------------------------------------------------------------------
 
