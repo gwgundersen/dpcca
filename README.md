@@ -1,6 +1,6 @@
 # Deep probabilistic CCA
 
-Code for [End-to-end training of deep probabilistic CCA on paired biomedical observations](https://openreview.net/pdf?id=SJgWKcenI4). 
+Code for [End-to-end training of deep probabilistic CCA on paired biomedical observations](http://auai.org/uai2019/proceedings/papers/340.pdf). 
 
 ### Abstract
 
