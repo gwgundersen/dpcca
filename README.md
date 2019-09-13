@@ -12,7 +12,7 @@ Install the dependencies using [Conda](https://conda.io/en/latest/) and activate
 
 ```bash
 conda env create -f environment.yml
-source activate dpcca
+conda activate dpcca
 ```
 
 [Optional] Run the unit tests. Note that these occasionally fail due to numerical tolerances:
