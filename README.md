@@ -11,13 +11,13 @@ Medical pathology images are visually evaluated by experts for disease diagnosis
 While all the dependencies used for the paper are listed in [environment.yml](https://github.com/gwgundersen/dpcca/blob/master/environment.yml), these are operating system-specific; and some library versions (e.g. `libcxx=4.0.1`) will not be available across systems. However, you can build everything you need with
 
 ```bash
-python 3.7
-pytorch 1.0.1
-torchvision 0.2.2
-numpy 1.16.2
+python       3.7
+pytorch      1.0.1
+torchvision  0.2.2
+numpy        1.16.2
 scikit-learn 0.20.2
-scipy 1.2.1
-matplotlib 3.0.2
+scipy        1.2.1
+matplotlib   3.0.2
 ```
 
 You'll need `nose2` to run the unit tests. Create and activate a conda environment,
