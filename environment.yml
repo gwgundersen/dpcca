@@ -53,5 +53,3 @@ dependencies:
   - pip:
     - coverage==4.5.2
     - nose2==0.8.0
-prefix: /Users/gwg/miniconda3/envs/dpcca
-
