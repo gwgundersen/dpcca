@@ -51,7 +51,7 @@ class DPCCA(nn.Module):
         y = self.encode(x)
         y1r, y2r = self.pcca.forward(y)
         x1r = self.image_net.decode(y1r)
-        x2r = self.genes_net.decode(y1r)
+        x2r = self.genes_net.decode(y2r)
         return x1r, x2r
 
 # ------------------------------------------------------------------------------
